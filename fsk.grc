@@ -491,7 +491,7 @@ blocks:
   parameters:
     affinity: ''
     alias: ''
-    ant0: ''
+    ant0: TX1
     ant1: ''
     ant10: ''
     ant11: ''
@@ -524,7 +524,7 @@ blocks:
     ant8: ''
     ant9: ''
     args: '""'
-    bb_gain0: '20'
+    bb_gain0: '80'
     bb_gain1: '20'
     bb_gain10: '20'
     bb_gain11: '20'
@@ -661,7 +661,7 @@ blocks:
     freq7: 100e6
     freq8: 100e6
     freq9: 100e6
-    gain0: '20'
+    gain0: '80'
     gain1: '10'
     gain10: '10'
     gain11: '10'
@@ -693,7 +693,7 @@ blocks:
     gain7: '10'
     gain8: '10'
     gain9: '10'
-    if_gain0: '20'
+    if_gain0: '80'
     if_gain1: '20'
     if_gain10: '20'
     if_gain11: '20'

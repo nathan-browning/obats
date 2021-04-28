@@ -38,11 +38,11 @@ def parseGPS(data, socket):
         # print(data_str)
 
         sdata = data_str.split(",")                         # parse
-        for x in range(0,9):
-            if sdata[x] == "":
-                bad_data_str = "INCOMPLETE DATA"
-                print(bad_data_str)
-                return
+        #for x in range(0,9):
+        #    if sdata[x] == "":
+        #        bad_data_str = "INCOMPLETE DATA"
+        #        print(bad_data_str)
+        #        return
 
         if sdata[6] == '0':
             no_sat_str = "NO SATELLITE DATA AVAILABLE"
